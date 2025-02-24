@@ -98,10 +98,25 @@
     width: auto;
   }
   .logo-cambridge {
-    height: 50px;  /* Adjust as needed */
+    height: 60px;  /* Adjust as needed */
     width: auto;
   }
 </style>
+
+	
+	<style>
+	/* Ensure the columns container uses flex and stretches children */
+	.columns.equal-height {
+	display: flex;
+	align-items: stretch;
+	}
+	/* Optional: add some styling for visualization */
+	.column {
+	padding: 1rem;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	}
+	</style>
 
     <script>
         $(document).ready(function() {
@@ -259,6 +274,7 @@
 	<section class="section">
 	  <div class="container is-max-widescreen">
 	    <h2 class="title is-3"><span class="dvima">Framework of ABC</span></h2>
+		  <div class="columns equal-height">
 	    <div class="columns is-vcentered">
 	      <!-- Image Column -->
 	      <div class="column is-half">
@@ -284,6 +300,7 @@
 	        </p>
 	      </div>
 	    </div>
+			  </div>
 	  </div>
 	</section>
 
