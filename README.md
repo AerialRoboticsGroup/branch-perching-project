@@ -1,5 +1,4 @@
 # Branch Perching Website
 
-Under devlopment!
-
-[link to website](https://aerialroboticsgroup.github.io/branch-perching-project/)
+Tendon-driven Grasper Design for Aerial Robot Perching on Tree Branches
+[[link to website]](https://aerialroboticsgroup.github.io/branch-perching-project/)
