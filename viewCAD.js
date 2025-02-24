@@ -56,7 +56,7 @@ import * as THREE from './build/three.module.js';
 
       // model
       var loader = new FBXLoader();
-      loader.load( './static/model/1.fbx', function ( object ) {
+      loader.load( './static/test.fbx', function ( object ) {
         console.log(object);
         threeobjrct=object;
         object.scale.set(800,800,800)
