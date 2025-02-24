@@ -82,12 +82,16 @@
 
 
 	<style>
-	/* Define a common class for the logos */
-	.logo {
-	height: 100px;    /* Set a uniform height */
-	width: auto;      /* Let the width adjust to keep aspect ratio */
-	margin: 0 10px;   /* Optional spacing between logos */
-	}
+	  .logo-container {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    gap: 20px; /* Adjust spacing between logos */
+	  }
+	  .logo {
+	    height: 100px; /* Set a uniform height for all logos */
+	    width: auto;   /* Maintain aspect ratio */
+	  }
 	</style>
 
     <script>
@@ -147,11 +151,11 @@
                         </div>
 
 			<!-- Logo -->
-			<p style="text-align:center;">
-				<img class="logo" src="./static/UoB_RGB_24.png" alt="Logo 1">
-				<img class="logo" src="./static/BRL_Logo_Main.png" alt="Logo 2">
-				<img class="logo" src="https://www.cam.ac.uk/sites/all/themes/fresh/images/interface/cambridge_university2.svg" alt="Logo 3">
-			</p>
+			<div class="logo-container">
+			  <img class="logo" src="./static/UoB_RGB_24.png" alt="Logo 1">
+			  <img class="logo" src="./static/BRL_Logo_Main.png" alt="Logo 2">
+			  <img class="logo" src="https://www.cam.ac.uk/sites/all/themes/fresh/images/interface/cambridge_university2.svg" alt="Logo 3">
+			</div>
                         
                         <!-- Buttons -->
                         <div class="column has-text-centered">
