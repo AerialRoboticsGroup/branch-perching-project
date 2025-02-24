@@ -1,5 +1,5 @@
 # Branch Perching Website
 
-Code is comming soon
+Under devlopment!
 
-[link to website](123/)
+[link to website](https://aerialroboticsgroup.github.io/branch-perching-project/)
