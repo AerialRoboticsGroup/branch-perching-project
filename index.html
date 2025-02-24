@@ -80,6 +80,16 @@
         }
     </style>
 
+
+	<style>
+	/* Define a common class for the logos */
+	.logo {
+	height: 100px;    /* Set a uniform height */
+	width: auto;      /* Let the width adjust to keep aspect ratio */
+	margin: 0 10px;   /* Optional spacing between logos */
+	}
+	</style>
+
     <script>
         $(document).ready(function() {
             $(".tabs ul li a").click(function(e) {
@@ -137,9 +147,10 @@
                         </div>
 
 			<!-- Logo -->
-		    	<p style="text-align:center;">
-<!-- 			<img src="https://bristolflightlab.com/assets/images/FlightLabWhite.png" width = "30%" height = "30%" div align=center /> -->
-			<img src="./static/UoB_RGB_24.png" width = "32%" height = "32%" div align=center />  <img src="./static/BRL_Logo_Main.png" width = "17%" height = "17%" div align=center />  <img src="https://www.cam.ac.uk/sites/all/themes/fresh/images/interface/cambridge_university2.svg" width = "30%" height = "30%" div align=center />
+			<p style="text-align:center;">
+				<img class="logo" src="./static/UoB_RGB_24.png" alt="Logo 1">
+				<img class="logo" src="./static/BRL_Logo_Main.png" alt="Logo 2">
+				<img class="logo" src="https://www.cam.ac.uk/sites/all/themes/fresh/images/interface/cambridge_university2.svg" alt="Logo 3">
 			</p>
                         
                         <!-- Buttons -->
