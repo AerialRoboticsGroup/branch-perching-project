@@ -81,18 +81,27 @@
     </style>
 
 
-	<style>
-	  .logo-container {
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
-	    gap: 20px; /* Adjust spacing between logos */
-	  }
-	  .logo {
-	    height: 60px; /* Set a uniform height for all logos */
-	    width: auto;   /* Maintain aspect ratio */
-	  }
-	</style>
+<style>
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between logos */
+  }
+  /* Individual logo height adjustments */
+  .logo-uob {
+    height: 60px; /* Adjust as needed */
+    width: auto;   /* Maintain aspect ratio */
+  }
+  .logo-brl {
+    height: 80px;  /* Adjust as needed */
+    width: auto;
+  }
+  .logo-cambridge {
+    height: 50px;  /* Adjust as needed */
+    width: auto;
+  }
+</style>
 
     <script>
         $(document).ready(function() {
@@ -152,9 +161,9 @@
 
 			<!-- Logo -->
 			<div class="logo-container">
-			  <img class="logo" src="./static/UoB_RGB_24.png" alt="Logo 1">
-			  <img class="logo" src="./static/BRL_Logo_Main.png" alt="Logo 2">
-			  <img class="logo" src="https://www.cam.ac.uk/sites/all/themes/fresh/images/interface/cambridge_university2.svg" alt="Logo 3">
+			  <img class="logo-uob" src="./static/UoB_RGB_24.png" alt="University of Bristol Logo">
+			  <img class="logo-brl" src="./static/BRL_Logo_Main.png" alt="Bristol Flight Lab Logo">
+			  <img class="logo-cambridge" src="https://www.cam.ac.uk/sites/all/themes/fresh/images/interface/cambridge_university2.svg" alt="University of Cambridge Logo">
 			</div>
                         
                         <!-- Buttons -->
